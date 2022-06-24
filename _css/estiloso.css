@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .background_page{
-    background-color: aliceblue;
+    background-color: hsl(210, 46%, 95%);
 }
 
 .img_format{
@@ -36,6 +36,7 @@
 }
 
 #title_content{
+    display: flex;
     color: hsl(217, 19%, 35%);
     font-family: 'Manrope', sans-serif;
     font-size: 27px;
@@ -44,6 +45,7 @@
 }
 
 #paragraph_content{
+    display: flex;
     color: hsl(217, 19%, 35%);
     font-family: 'Manrope', sans-serif;
     text-align: justify;
@@ -52,12 +54,13 @@
 }
 
 #img_size{
-    width: 5%;
-    height: 15%;
+    display: flex;
+    width: 55px;
+    height: 55px;
     border-radius: 50%; 
     position: absolute;
     bottom: 12%;
-    margin-left: 6%;
+    margin-left: 430px;
 }
 
 .typeName_container{
@@ -75,12 +78,14 @@
 }
 
 #date_content{
+    display: flex;
     color: hsl(217, 19%, 35%);
     font-family: 'Manrope', sans-serif;
     margin: 0;
 }
 
 .core_container{
+    display: flex;
     position: absolute;
     width: 45px;
     height: 45px;
@@ -91,6 +96,7 @@
 }
 
 #img_share{
+    display: flex;
     position: absolute;
     width: 28px;
     height: 24px;
