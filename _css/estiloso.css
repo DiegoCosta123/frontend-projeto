@@ -104,3 +104,63 @@
     right: 20%;
 }
 
+
+/* Responsividade */
+
+@media screen and (max-width:520px) {
+    .img_format {
+        width: 500px;
+        height: 750px;
+    }
+
+    .img_format img {
+        width: 100%;
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .text_container {
+        position: relative;
+        display: inline;
+        width: 0;
+    }
+
+    #title_content {
+        color: hsl(217, 19%, 35%);
+        font-family: 'Manrope', sans-serif;
+        font-size: 17pt;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    #paragraph_content {
+        color: hsl(217, 19%, 35%);
+        font-family: 'Manrope', sans-serif;
+        text-align: justify;
+        margin-left: 40px;
+    }
+
+    #img_size {
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        margin-left: 40px;
+        bottom: 40px;
+    }
+
+    .typeName_container {
+        position: absolute;
+        display: inline;
+        margin: auto;
+        left: 120px;
+        bottom: 45px;
+    }
+
+    .core_container {
+        position: absolute;
+        display: flex;
+        bottom: 40px;
+    }
+}
+
